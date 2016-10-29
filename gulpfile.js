@@ -7,7 +7,7 @@ var autoprefixer = require("gulp-autoprefixer");
 
 //Compile all scss files in scss dir, send to destination folder (css/)
 gulp.task("sassify", function(){
-  gulp.src("scss/king.scss")
+  gulp.src("src/css/king.scss")
     .pipe(sass().on("error", sass.logError))
     .pipe(concat("style.css"))
     .pipe(autoprefixer())
@@ -21,5 +21,5 @@ gulp.task("sassify", function(){
 
 //Gulp watch task
 gulp.task("default", function(){
-  gulp.watch("scss/**/*.scss", ["sassify"]);
+  gulp.watch("src/scss/**/*.scss", ["sassify"]);
 });
