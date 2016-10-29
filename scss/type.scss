@@ -1,5 +1,14 @@
+html {
+  @extend .text-sans;
+  font-size: 24px;
+}
+
 .text-huge {
   font-size: 3.00em;
+}
+
+.text-xxl {
+  font-size: 2.00em;
 }
 
 .text-xl {
@@ -54,17 +63,46 @@
 .text-underline {}
 .text-nounderliine {}
 
-.text-sans {}
-.text-serif {}
+.text-sans {
+  font-family: $font-sans;
+}
+
+.text-serif {
+  font-family: $font-serif;
+}
+
 .text-mono {}
 .text-display {}
 
-h1 {}
-h2 {}
-h3 {}
-h4 {}
-h5 {}
-h6 {}
-p {}
+h1 {
+  @extend .text-xxl;
+}
+
+h2 {
+  @extend .text-xl;
+}
+
+
+h3 {
+  @extend .text-lg;
+}
+
+
+h4 {
+  @extend .text-md;
+}
+
+h5 {
+  @extend .text-sm;
+}
+
+h6 {
+  @extend .text-xs;
+}
+
+p {
+  @extend .text-sm;
+}
+
 a {}
 
