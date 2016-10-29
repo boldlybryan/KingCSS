@@ -1,0 +1,17 @@
+{
+  "name": "kingcss",
+  "version": "0.0.1",
+  "description": "My personal css framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Bryan King",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
