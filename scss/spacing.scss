@@ -22,3 +22,6 @@
   .my#{$i} {margin-top: $spacing * $i; margin-bottom: $spacing * $i;}
 }
 
+.mx-auto {
+  margin: 0 auto;
+}
