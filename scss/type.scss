@@ -69,8 +69,13 @@ html {
 
 .text-italic {}
 .text-bold {}
-.text-underline {}
-.text-nounderliine {}
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-nounderliine {
+  text-decoration: none;
+}
 
 .text-sans {
   font-family: $font-sans;
