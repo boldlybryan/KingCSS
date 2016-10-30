@@ -4,10 +4,11 @@ var concat = require("gulp-concat");
 var minifyCss = require("gulp-minify-css");
 var rename = require("gulp-rename");
 var autoprefixer = require("gulp-autoprefixer");
+var livereload = require("gulp-livereload");
 
 //Compile all scss files in scss dir, send to destination folder (css/)
 gulp.task("sassify", function(){
-  gulp.src("src/css/king.scss")
+  gulp.src("scss/king.scss")
     .pipe(sass().on("error", sass.logError))
     .pipe(concat("style.css"))
     .pipe(autoprefixer())
@@ -17,9 +18,11 @@ gulp.task("sassify", function(){
       extname: ".min.css"
     }))
     .pipe(gulp.dest("./css/"))
+    .pipe(livereload())
 });
 
 //Gulp watch task
 gulp.task("default", function(){
-  gulp.watch("src/scss/**/*.scss", ["sassify"]);
+  livereload.listen();
+  gulp.watch("scss/**/*.scss", ["sassify"]);
 });
