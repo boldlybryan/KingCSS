@@ -78,6 +78,25 @@
   max-width: 100%;
 }
 
+.max-xs {
+  max-width: $x-small;
+}
+
+.max-sm {
+  max-width: $small;
+}
+
+.max-md {
+  max-width: $medium;
+}
+
+.max-lg {
+  max-width: $large;
+}
+
+.max-xl {
+  max-width: $x-large;
+}
 
 @media (min-width: $x-small) {
 
