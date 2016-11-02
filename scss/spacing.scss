@@ -24,23 +24,23 @@
 
 @media (min-width: $x-small){
   @for $i from 0 through 5 {
-    .p#{$i}-xl {padding: $spacing * $i;}
-    .pt#{$i}-xl {padding-top: $spacing * $i;}
-    .pb#{$i}-xl {padding-bottom: $spacing * $i;}
-    .pr#{$i}-xl {padding-right: $spacing * $i;}
-    .pl#{$i}-xl {padding-left: $spacing * $i;}
-    .px#{$i}-xl {padding-left: $spacing * $i; padding-right: $spacing * $i;}
-    .py#{$i}-xl {padding-top: $spacing * $i; padding-bottom: $spacing * $i;}
+    .p#{$i}-xs {padding: $spacing * $i;}
+    .pt#{$i}-xs {padding-top: $spacing * $i;}
+    .pb#{$i}-xs {padding-bottom: $spacing * $i;}
+    .pr#{$i}-xs {padding-right: $spacing * $i;}
+    .pl#{$i}-xs {padding-left: $spacing * $i;}
+    .px#{$i}-xs {padding-left: $spacing * $i; padding-right: $spacing * $i;}
+    .py#{$i}-xs {padding-top: $spacing * $i; padding-bottom: $spacing * $i;}
   }
 
   @for $i from 0 through 5 {
-    .m#{$i}-xl {margin: $spacing * $i;}
-    .mt#{$i}-xl {margin-top: $spacing * $i;}
-    .mb#{$i}-xl {margin-bottom: $spacing * $i;}
-    .mr#{$i}-xl {margin-right: $spacing * $i;}
-    .ml#{$i}-xl {margin-left: $spacing * $i;}
-    .mx#{$i}-xl {margin-left: $spacing * $i; margin-right: $spacing * $i;}
-    .my#{$i}-xl {margin-top: $spacing * $i; margin-bottom: $spacing * $i;}
+    .m#{$i}-xs {margin: $spacing * $i;}
+    .mt#{$i}-xs {margin-top: $spacing * $i;}
+    .mb#{$i}-xs {margin-bottom: $spacing * $i;}
+    .mr#{$i}-xs {margin-right: $spacing * $i;}
+    .ml#{$i}-xs {margin-left: $spacing * $i;}
+    .mx#{$i}-xs {margin-left: $spacing * $i; margin-right: $spacing * $i;}
+    .my#{$i}-xs {margin-top: $spacing * $i; margin-bottom: $spacing * $i;}
   }
 }
 
