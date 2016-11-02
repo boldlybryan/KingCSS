@@ -1,6 +1,6 @@
 {
   "name": "kingcss",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "My personal css framework.",
   "main": "index.js",
   "scripts": {
