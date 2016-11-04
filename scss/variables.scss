@@ -4,8 +4,10 @@ $medium: 768px;
 $large: 1024px;
 $x-large: 1200px;
 
-$font-sans:-apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+$font-sans: "Work Sans", -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 $font-serif: Georgia, times, serif;
+$font-display: "Space Mono", sans-serif;
+$font-mono: monaco, Consolas, Lucida Console, monospace; 
 
 $spacing: 0.33em;
 $border-width: 0.125em;
