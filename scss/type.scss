@@ -172,8 +172,14 @@ p {
   text-transform: capitalize;
 }
 
-.text-italic {}
-.text-bold {}
+.text-italic {
+  font-style: italic;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
 .text-underline {
   text-decoration: underline;
 }
@@ -190,8 +196,13 @@ p {
   font-family: $font-serif;
 }
 
-.text-mono {}
-.text-display {}
+.text-mono {
+  font-family: $font-mono;
+}
+
+.text-display {
+  font-family: $font-display;
+}
 
 h1 {
   @extend .text-xxl;
